@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    padding: 10px 14px;
+    background-color: darkblue;
+    color: white;
+}
+
+.formulario{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario label{
+    display: block;
+    margin-top: 8px;
+}
+
+.formulario input{
+    display: block;
+}
+
+.formulario button, .formulario select{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.resultado{
+    width: 80%;
+    margin: 30px auto ;
+    
+}
+
+.resultado table{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.resultado th, .resultado td{
+    border: 1px solid darkblue;
+    padding: 5px;
+}
+
+.resultado th{
+    background-color: darkblue;
+    color: white;
+}
+
+.resultado a{
+    padding: 5px 10px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}

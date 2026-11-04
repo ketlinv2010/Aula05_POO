@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    padding: 10px 14px;
+    background-color: pink;
+}
+
+.formulario{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario label{
+    display: block;
+    margin-top: 7px;
+}
+
+.formulario input{
+    display: block;
+}
+
+.formulario button{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.resultado{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.resultado table{
+    width: 100%;
+}
+
+
+.resultado th, .resultado td{
+    border: 1px solid palevioletred;
+    padding: 12px;
+    text-align: left;
+}
+
+.resultado th{
+    background-color: pink;
+}
