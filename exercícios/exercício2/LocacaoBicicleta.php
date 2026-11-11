@@ -47,7 +47,7 @@ class LocacaoBicicleta{
             return $this->calcularValorBruto() - $this->calcularDesconto();
         }
         else{
-            return $this->calcularValorBruto;
+            return $this->calcularValorBruto();
         }
     }
 
